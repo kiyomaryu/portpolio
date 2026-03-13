@@ -87,7 +87,7 @@ export default function Home() {
               <p className="text-gray-700 leading-relaxed text-base">
                 オンプレミスおよびAWSをはじめとしたクラウドのインフラ設計・構築から、バックエンド開発、SRE組織の立ち上げ、PMOまで、システム開発における上流から下流までの実務経験を持つプレイングマネージャーです。
               </p>
-              <p className="text-gray-700 leading-relaxed text-sm mt-4">
+              <p className="text-gray-700 leading-relaxed text-base mt-4">
                 「システム開発の全体を把握し、総合的に事業を推進できる人材」を目標に意図的にキャリアを形成し、現在はXR系事業のPMOとしてプロジェクト全体管理および現場ディレクションを牽引しています。
               </p>
             </div>
@@ -197,8 +197,8 @@ export default function Home() {
                   <Briefcase className="w-5 h-5 text-green-700" />
                 </div>
                 <div>
-                  <p className="font-bold text-gray-900 text-sm">経歴・スキル詳細</p>
-                  <p className="text-gray-400 text-xs mt-0.5">職務経歴・技術スキル・今後の目標</p>
+                  <p className="font-bold text-gray-900 text-base">スキル・経験・職務経歴</p>
+                  <p className="text-gray-400 text-sm mt-0.5">技術スキル・職務経歴の詳細</p>
                 </div>
               </div>
               <ArrowRight className="w-4 h-4 text-gray-300 group-hover:text-green-500 group-hover:translate-x-0.5 transition-all" />

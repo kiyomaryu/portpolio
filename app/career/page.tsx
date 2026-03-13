@@ -151,7 +151,7 @@ export default function CareerPage() {
                 Back to Home
               </Link>
               <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight mb-2">キャリア</h1>
-              <p className="text-gray-500 text-sm">スキル・経験・職務経歴</p>
+              <p className="text-gray-500 text-base">スキル・経験・職務経歴</p>
             </div>
           </FadeIn>
 
@@ -166,19 +166,19 @@ export default function CareerPage() {
               {skills.map((skill, i) => (
                 <FadeIn key={i} delay={i * 0.05}>
                   <div className="border-b border-gray-100 pb-6">
-                    <h3 className="text-base font-bold text-gray-900 mb-3">{skill.category}</h3>
+                    <h3 className="text-lg font-bold text-gray-900 mb-3">{skill.category}</h3>
                     <div className="flex flex-wrap gap-2 mb-2">
                       {skill.tags.map((tag, j) => (
                         <span
                           key={j}
-                          className="bg-green-50 text-green-700 text-xs font-medium px-3 py-1 rounded-full border border-green-100"
+                          className="bg-green-50 text-green-700 text-sm font-medium px-3 py-1 rounded-full border border-green-100"
                         >
                           {tag}
                         </span>
                       ))}
                     </div>
                     {skill.note && (
-                      <p className="text-gray-400 text-xs leading-relaxed mt-2">{skill.note}</p>
+                      <p className="text-gray-400 text-base leading-relaxed mt-2">{skill.note}</p>
                     )}
                   </div>
                 </FadeIn>
@@ -215,11 +215,11 @@ export default function CareerPage() {
                         </span>
                       </div>
 
-                      <p className="text-xs text-green-600 font-semibold mb-1.5">{career.period}</p>
+                      <p className="text-sm text-green-600 font-semibold mb-1.5">{career.period}</p>
 
                       <div className="bg-white border border-gray-100 rounded-2xl p-5 mb-4">
                         <h2 className="text-2xl font-bold text-gray-900 mt-2 mb-1">{career.company}</h2>
-                        <span className="text-xs text-gray-400">{career.size}</span>
+                        <span className="text-sm text-gray-400">{career.size}</span>
                         <div className="mt-2 mb-1">
                           <span className="text-lg font-semibold text-green-600">
                             {career.role}
@@ -240,14 +240,14 @@ export default function CareerPage() {
                               className="bg-gray-50 rounded-2xl p-5 border border-gray-100"
                             >
                               <div className="flex items-start justify-between gap-3 mb-3">
-                                <h3 className="text-base font-bold text-gray-800 leading-snug flex-1">
+                                <h3 className="text-lg font-bold text-gray-800 leading-snug flex-1">
                                   {proj.title}
                                 </h3>
                                 <span className="flex-shrink-0 text-xs font-semibold text-green-700 bg-green-100 px-2.5 py-1 rounded-full">
                                   {proj.role}
                                 </span>
                               </div>
-                              <div className="flex items-center gap-1.5 text-sm text-gray-500 mb-3">
+                              <div className="flex items-center gap-1.5 text-base text-gray-500 mb-3">
                                 <Users className="w-3.5 h-3.5" />
                                 <span><span className="font-semibold">規模：</span>{proj.scale}</span>
                               </div>
