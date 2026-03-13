@@ -56,11 +56,10 @@ export default function Home() {
             <div className="flex justify-center mb-6">
               <div className="relative w-28 h-28 rounded-full overflow-hidden ring-4 ring-green-100 ring-offset-2">
                 <Image
-                  src="https://pbs.twimg.com/profile_images/2013170392764915712/j4tlJW1__400x400.jpg"
+                  src="/avatar.jpg"
                   alt="きよまる"
                   fill
                   className="object-cover"
-                  unoptimized
                 />
               </div>
             </div>
@@ -78,7 +77,6 @@ export default function Home() {
       {/* Short summary */}
       <section className="px-6 pb-12">
         <div className="max-w-3xl mx-auto">
-          <p className="text-right text-xs text-gray-300 mb-2">最終更新日：2026年3月13日</p>
           <FadeIn>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 border-b-2 border-green-500 pb-2 mb-6">
               プロフィール
