@@ -226,7 +226,7 @@ export default function CareerPage() {
                           </span>
                         </div>
                         {career.description && (
-                          <p className="text-gray-600 text-sm leading-relaxed mt-3">
+                          <p className="text-gray-600 text-base leading-relaxed mt-3">
                             {career.description}
                           </p>
                         )}
@@ -253,7 +253,7 @@ export default function CareerPage() {
                               </div>
                               <div className="flex items-start gap-2">
                                 <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
-                                <p className="text-gray-600 text-sm leading-relaxed"><span className="font-semibold">実績：</span>{proj.result}</p>
+                                <p className="text-gray-600 text-base leading-relaxed"><span className="font-semibold">実績：</span>{proj.result}</p>
                               </div>
                             </div>
                           ))}

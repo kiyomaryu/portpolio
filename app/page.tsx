@@ -84,7 +84,7 @@ export default function Home() {
               プロフィール
             </h2>
             <div className="bg-gray-50 rounded-2xl p-7">
-              <p className="text-gray-700 leading-relaxed text-sm">
+              <p className="text-gray-700 leading-relaxed text-base">
                 オンプレミスおよびAWSをはじめとしたクラウドのインフラ設計・構築から、バックエンド開発、SRE組織の立ち上げ、PMOまで、システム開発における上流から下流までの実務経験を持つプレイングマネージャーです。
               </p>
               <p className="text-gray-700 leading-relaxed text-sm mt-4">
@@ -117,7 +117,7 @@ export default function Home() {
                         <h3 className="text-base font-bold text-gray-900 mb-2 leading-snug">
                           {s.title}
                         </h3>
-                        <p className="text-gray-600 text-sm leading-relaxed whitespace-pre-line">{s.body}</p>
+                        <p className="text-gray-600 text-base leading-relaxed whitespace-pre-line">{s.body}</p>
                       </div>
                     </div>
                   </div>
@@ -136,7 +136,7 @@ export default function Home() {
               <h2 className="text-2xl md:text-3xl font-bold text-white border-b-2 border-green-400 pb-2 mb-4">
                 今後の目標
               </h2>
-              <p className="leading-relaxed text-sm text-green-50">
+              <p className="leading-relaxed text-base text-green-50">
                 AIの進化により世界が劇的な変化を迎える中、これまで培ってきた「フルスタックの技術力」と「全体を巻き込み推進する力」が最大限に活きると確信しております。今後は特にAIを活用し、多くの方の生産性を向上させるプロダクトの推進に挑戦したいと考えています。健全で透明性のある組織の中で、この変革期をテクニカルPdMとして牽引して参ります。
               </p>
             </div>
@@ -168,7 +168,7 @@ export default function Home() {
                           {item.label}
                         </p>
                         <h3 className="text-xl font-bold text-gray-900 mb-2">{item.sublabel}</h3>
-                        <p className="text-gray-600 text-sm leading-relaxed">{item.body}</p>
+                        <p className="text-gray-600 text-base leading-relaxed">{item.body}</p>
                       </div>
                     </div>
                   </div>
