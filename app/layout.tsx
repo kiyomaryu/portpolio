@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "きよまる | Technical PdM / PMO",
+  title: "きよまるのポートフォリオ",
   description:
     "技術者出身のプロダクトマネージャー きよまる のポートフォリオサイトです。",
   openGraph: {
-    title: "きよまる | Technical PdM / PMO",
+    title: "きよまるのポートフォリオ",
     description:
       "技術者出身のプロダクトマネージャー きよまる のポートフォリオサイトです。",
     url: "https://kiyomaruworks.com",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "きよまる | Technical PdM / PMO",
+    title: "きよまるのポートフォリオ",
     description:
       "技術者出身のプロダクトマネージャー きよまる のポートフォリオサイトです。",
     images: ["https://kiyomaruworks.com/og-image.jpg"],
