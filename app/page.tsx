@@ -149,7 +149,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto">
           <FadeIn>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 border-b-2 border-green-500 pb-2 mb-2">
-              今後やっていきたいこと
+              次のキャリアについて
             </h2>
             <p className="text-gray-500 text-sm mb-6">次に挑戦したいこと・希望条件</p>
           </FadeIn>
