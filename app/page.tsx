@@ -66,7 +66,7 @@ export default function Home() {
             </div>
             <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-3 tracking-tight">きよまる</h1>
             <p className="text-green-600 font-semibold text-base tracking-wide">
-              Technical PdM / VPoE候補 / PMO
+              Technical PdM / PMO
             </p>
             <p className="text-gray-400 text-xs leading-relaxed mt-4 max-w-sm mx-auto">
               ※現在就業中のため、Web上ではハンドルネームにて公開しております。本名および詳細な職務経歴書につきましては、カジュアル面談等でお話しする際にお渡しいたします。
@@ -78,6 +78,7 @@ export default function Home() {
       {/* Short summary */}
       <section className="px-6 pb-12">
         <div className="max-w-3xl mx-auto">
+          <p className="text-right text-xs text-gray-300 mb-2">最終更新日：2026年3月13日</p>
           <FadeIn>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 border-b-2 border-green-500 pb-2 mb-6">
               プロフィール

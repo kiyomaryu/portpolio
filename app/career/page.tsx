@@ -151,7 +151,7 @@ export default function CareerPage() {
                 Back to Home
               </Link>
               <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight mb-2">キャリア</h1>
-              <p className="text-gray-500 text-sm">経歴・スキル</p>
+              <p className="text-gray-500 text-sm">スキル・経験・職務経歴</p>
             </div>
           </FadeIn>
 
