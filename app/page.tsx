@@ -126,21 +126,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Future Goals */}
-      <section className="px-6 pb-12">
-        <div className="max-w-3xl mx-auto">
-          <FadeIn>
-            <div className="bg-green-600 rounded-2xl p-7 text-white">
-              <h2 className="text-2xl md:text-3xl font-bold text-white border-b-2 border-green-400 pb-2 mb-4">
-                今後の目標
-              </h2>
-              <p className="leading-relaxed text-base text-green-50">
-                AIの進化により世界が劇的な変化を迎える中、これまで培ってきた「フルスタックの技術力」と「全体を巻き込み推進する力」が最大限に活きると確信しております。今後は特にAIを活用し、多くの方の生産性を向上させるプロダクトの推進に挑戦したいと考えています。健全で透明性のある組織の中で、この変革期をテクニカルPdMとして牽引して参ります。
-              </p>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
 
       {/* Next Career */}
       <section className="px-6 pb-12">
