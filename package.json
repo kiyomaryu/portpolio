@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "preview": "wrangler dev --local --ip 127.0.0.1 --port 8787",
+    "deploy": "wrangler deploy",
+    "deploy:check": "wrangler deploy --dry-run",
+    "test:smoke": "node scripts/smoke-test.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.36.0",
@@ -23,6 +27,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wrangler": "4.147.0"
   }
 }

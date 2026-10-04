@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kiyomaruworks",
+  "compatibility_date": "2026-10-04",
+  "workers_dev": true,
+  // Custom Domains / routes are deliberately absent until cutover approval.
+  "assets": {
+    "directory": "./out",
+    "html_handling": "drop-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

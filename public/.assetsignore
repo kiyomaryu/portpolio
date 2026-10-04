@@ -1,0 +1,2 @@
+# Keep the GitHub Pages domain file in out/, but do not upload it to Workers.
+/CNAME
