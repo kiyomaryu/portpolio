@@ -48,6 +48,7 @@ Wrangler 4.147.0を固定しlockfileを更新。Next/Reactなどアプリの直�
 - `wrangler dev --local` の実際の配信に対するHTTPテスト: 4ページ200、CSS/JS/画像のMIME型とバイト一致、RSC、404、URL正規化、CNAME除外を確認。
 - ブラウザ: Home → Career → Links → Homeのクライアント遷移成功。スクロールでFadeInのopacityが0から1に変化。
 - 現行GitHub PagesとローカルWorkersを1440×1000、390×844で比較。4ページの本文・リンク先・見出し座標が一致し、横のはみ出しなし。
+- 同条件で保存した4ページ×2画面サイズのスクリーンショット8組は、PNGファイルが完全一致。
 - avatar表示、PC／モバイル表示を確認。OGP画像とfaviconはHTTPでも確認。
 - ローカル検証は公開Cloudflare上のTLS・キャッシュ・アカウント設定を保証するものではない。
 
